@@ -28,7 +28,7 @@ public class ReportWordTest {
     @Test
     public void testPoiTl() throws Exception {
 
-        ClassPathResource classPathResource = new ClassPathResource("template/xdocreport.docx");
+        ClassPathResource classPathResource = new ClassPathResource("template/poi-tl.docx");
         InputStream in = classPathResource.getInputStream();
 
         Map<String, Object> data = getStringObjectMap();
